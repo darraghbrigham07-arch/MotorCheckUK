@@ -1,0 +1,3 @@
+import FeedbackForm from "@/components/FeedbackForm";
+export const metadata={title:"Report an issue | MotorCheck UK"};
+export default function ReportIssue(){return <main><section className="page-hero"><div className="container"><p className="eyebrow">Help us improve</p><h1>Report an issue</h1><p>If a page doesn't work or information appears incorrect, use this form to describe the problem. Please don't include payment-card details or sensitive personal information.</p></div></section><section className="content-wrap"><div className="container" style={{maxWidth:790}}><FeedbackForm kind="issue"/></div></section></main>}
